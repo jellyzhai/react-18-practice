@@ -1,0 +1,72 @@
+.checkout {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #eee;
+  z-index: 9999;
+}
+
+.close {
+  font-size: 36rem;
+  padding: 20rem;
+}
+
+.mealsDesc {
+  background-color: #fff;
+  border-radius: 40rem;
+  padding: 0 20rem;
+  width: 700rem;
+  margin: 0 auto;
+}
+
+.header {
+  height: 80rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 20rem;
+}
+
+.meals {
+    max-height: 900rem;
+    overflow: auto;
+}
+
+.noMeals {
+    text-align: center;
+    padding: 24rem;
+    font-size: 24rem;
+}
+
+.footer {
+    position: relative;
+  height: 120rem;
+  border-top: 1px dashed #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer::before,
+.footer::after {
+    content: '';
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+  background-color: #eee;
+    border-radius: 50%;
+    top: -10rem;
+    left: -30rem;
+}
+
+.footer::after {
+    left: auto;
+    right: -30rem;
+}
+
+.footer b {
+    font-size: 30rem;
+    margin-left: 10rem;
+}

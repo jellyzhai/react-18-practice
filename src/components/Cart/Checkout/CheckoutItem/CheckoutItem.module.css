@@ -1,0 +1,38 @@
+.checkItem {
+  display: flex;
+}
+
+.mealImg {
+  width: 140rem;
+}
+
+.mealImg img {
+  width: 100%;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: auto;
+  margin-left: 20rem;
+}
+
+.title {
+  font-size: 24rem;
+}
+
+.priceOuter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+    font-size: 28rem;
+}
+
+.price::before {
+    content: '¥';
+    font-weight: normal;
+    font-size: 24rem;
+}

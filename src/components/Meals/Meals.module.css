@@ -1,0 +1,8 @@
+.meals {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    top: 120rem;
+    padding-bottom: 120rem;
+}

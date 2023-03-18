@@ -1,0 +1,16 @@
+.tableBox {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.table th,
+.table td {
+    padding: 5px;
+    border: 1px solid black;
+}

@@ -1,0 +1,40 @@
+.backdropOuter {
+    z-index: 9999;
+}
+
+.confirm {
+    width: 700rem;
+    height: 300rem;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.confirmText {
+    font-size: 38rem;
+}
+
+.cancel,
+.ok {
+    width: 180rem;
+    height: 60rem;
+    border: 1px solid #ccc;
+    border-radius: 40rem;
+    font-size: 28rem;
+    background-color: #fff;
+}
+
+.ok {
+    margin-left: 50rem;
+    border: none;
+    background-color: #fcbf49;
+}

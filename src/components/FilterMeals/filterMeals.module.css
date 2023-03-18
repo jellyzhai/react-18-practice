@@ -1,0 +1,40 @@
+.filterMeals {
+    display: flex;
+    margin: auto;
+    /* justify-content: center;
+    align-items: center; */
+    left: 0;
+    right: 0;
+    height: 120rem;
+    background-color: #fff;
+    z-index: 999;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.inputOuter {
+    position: relative;
+
+    /* 配合父元素的display:flex ，设置当前子元素居中显示 */
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    width: 650rem;
+    height: 70rem;
+    border: none;
+    border-radius: 32rem;
+    background-color: #f2f2f2;
+    outline: none;
+    padding-left: 60rem;
+    font-size: 32rem;
+}
+
+.searchIcon {
+    color: #aaa;
+    font-size: 40rem;
+    position: absolute;
+    left: 10rem;
+}
